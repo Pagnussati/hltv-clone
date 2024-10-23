@@ -5,15 +5,16 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
-  color: white;
+  color: black;
   background-color: #1b2024;
 }
 
-h1 {
+.title {
   text-align: center;
-  margin-bottom: 100px;
+  margin-bottom: 50px; 
   margin-top: 50px;
   font-size: 2rem;
+  color: white;
 }
 
 .container {
@@ -29,36 +30,41 @@ h1 {
 .event {
   text-align: center;
   margin-bottom: 20px;
+  background-color: white;
 }
 
 .event img {
   width: 50px;
   height: auto;
+  background-color: white;
 }
 
 .match {
   text-align: center;
   background-color: white;
-  padding: 20px;
-  margin-bottom: 20px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
+  padding: 20px; 
+  margin-bottom: 20px; 
+  border: 1px solid #ccc; 
+  border-radius: 8px; 
 }
 
 .teams {
   display: flex;
   justify-content: space-around;
+  background-color: white;
   margin: 20px 0;
 }
 
 .team {
   flex: 1;
   text-align: center;
+  background-color: white;
 }
 
 .team img {
   width: 50px;
   height: auto;
+  background-color: white;
 }
 
 .maps, .time {
@@ -70,8 +76,7 @@ h2, p {
 }
 
 .navbar {
-  background-color: #333;
-  padding: 10px 0;
+  padding: 10px 0; 
 }
 
 .navbar ul {
@@ -86,11 +91,12 @@ h2, p {
 
 .navbar a {
   text-decoration: none; 
-  color: white;
-  font-weight: bold;
+  color: white; 
+  font-weight: bold; 
   transition: color 0.3s; 
 }
 
 .navbar a:hover {
   color: #0051ff; 
 }
+
