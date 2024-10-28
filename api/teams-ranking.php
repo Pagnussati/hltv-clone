@@ -17,7 +17,7 @@ $ranking = json_decode(file_get_contents($url));
 <body>
   <nav class="navbar">
     <ul>
-      <li><a href="../index.php">Página principal / Resultados</a></li>
+      <li><a href="./index.php">Página principal / Resultados</a></li>
       <li><a href="./teams-ranking.php">Ranking</a></li>
     </ul>
   </nav>
